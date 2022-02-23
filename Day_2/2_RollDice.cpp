@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 {
     int flag = 0;
     unsigned int seed = 0;
-    cout << "请输入随机数的范围：" << endl;
+    cout << "Please enter seed of random number generation()integer!!" << endl;
     cin >> seed;
     srand(seed);
     int sum = rolldice();
