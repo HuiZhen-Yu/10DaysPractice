@@ -25,7 +25,7 @@ public:
     const String &operator=(const String &R)
     {
         length = R.length;
-        // sPtr = new char[length+1];
+        sPtr = new char[length + 1];
         strcpy(sPtr, R.sPtr);
         return *this;
     }
